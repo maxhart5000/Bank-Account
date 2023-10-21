@@ -6,7 +6,7 @@ import java.util.Map;
 public class Bank {
     private final int routingNumber;
     private long lastTransactionID = 1;
-    private Map<String, BankCustomer> customers;
+    private final Map<String, BankCustomer> customers;
 
     public Bank(int routingNumber){
         this.routingNumber = routingNumber;
